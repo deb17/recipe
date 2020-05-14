@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe app</title>
+    <link rel="icon" href="./img/spoon-knife.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Food recipes</h1>
+      <input type="text" id="terms" placeholder="Enter dish name..." />
+      <br /><br />
+      <button id="find">Find</button>
+      <p id="error"></p>
+      <img src="./img/ajax-loader.gif" alt="Loading..." id="load" />
+      <br />
+      <div id="recipe">
+        <h2 id="title"></h2>
+        <div id="info">
+          <p id="serves"><b>Serves:</b> <span></span></p>
+          <p id="readyin"><b>Ready in:</b> <span></span></p>
+          <h3>Ingredients</h3>
+          <ul id="list"></ul>
+          <h3>Instructions</h3>
+          <p id="instr"></p>
+        </div>
+      </div>
+    </div>
+    <div id="credits">
+      <div>
+        api by
+        <a href="https://spoonacular.com/food-api" target="_blank"
+          >spoonacular</a
+        >
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  background-color: #f2f7f5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: darkgreen;
+  font-size: 3rem;
+}
+
+#load,
+#recipe {
+  display: none;
+}
+
+#container {
+  width: 40vw;
+  min-width: 300px;
+  min-height: 80vh;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#info {
+  text-align: left;
+}
+
+input {
+  width: 280px;
+  height: 45px;
+  font-size: 25px;
+}
+
+button {
+  width: 80px;
+  height: 35px;
+  background-color: lightblue;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#error {
+  font-style: italic;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#credits div {
+  float: right;
+  margin: 15px;
+}
